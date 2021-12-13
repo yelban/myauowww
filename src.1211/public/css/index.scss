@@ -1,0 +1,62 @@
+$font-color: #505050;
+$body-background-color: #F5F5F5;
+
+// @font-face {
+//   font-family: AndadaPro;
+//   src:
+//     url("../assets/fonts/AndadaPro-Regular.woff2") format("woff2"),
+//     url("../assets/fonts/AndadaPro-Regular.ttf") format("truetype");
+// }
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", helvetica, arial, "Lucida Grande", "LiHei Pro", "WenQuanYi Zen Hei", "微軟正黑體", "Microsoft JhengHei", "微软雅黑", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  color: $font-color;
+  background-color: $body-background-color;
+
+  h1 {
+    // font-family: AndadaPro, "Helvetica Neue", helvetica, arial, "Lucida Grande", "LiHei Pro", "WenQuanYi Zen Hei", "微軟正黑體", "Microsoft JhengHei", "微软雅黑", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    text-align: center;
+    box-shadow: 1px 1px 5px 0 rgb(0 0 0 / 75%);
+  }
+
+  // .swiper-container {
+  //   width: 100%;
+  //   height: 50px;
+  //   background: #000;
+
+  //   .swiper-slide {
+  //     /* Center slide text vertically */
+  //     //   display: box;
+  //     // display: flexbox;
+  //     display: flex;
+  //     align-items: center;
+  //     justify-content: center;
+  //     font-size: 18px;
+  //     color: #EEE;
+  //     text-align: center;
+
+  //     //   background: #FFF;
+  //   }
+
+  //   div.swiper-button-prev,
+  //   div.swiper-button-next {
+  //     // color: yellow;
+
+  //     // filter: sepia(100%) hue-rotate(188deg) brightness(5000%) contrast(103%);
+  //   }
+  // }
+
+  .ab-widget {
+    width: 100%;
+    height: 300px;
+    border: 1px solid gray;
+  }
+}
