@@ -61,8 +61,8 @@ export async function fetchData(endpoint) {
   // return json;
 }
 
-export function renderSwiper() {
-  console.log('renderSwiper()');
+export function renderSwiper(count) {
+  console.log('renderSwiper(count)', count);
 
   // if (!ab.links) {
   //   if (ab.retry > 1) {
@@ -76,7 +76,7 @@ export function renderSwiper() {
   // }
 
   const swiper = new Swiper('.swiper-container', {
-    slidesPerView: 10,
+    slidesPerView: count,
     //   spaceBetween: 30,
     keyboard: {
       enabled: true,
@@ -84,6 +84,10 @@ export function renderSwiper() {
     mousewheel: {
       // invert: true,
     },
+    // longSwipes: false,
+    // longSwipesMs: 500,
+    // longSwipesRatio: 0.1,
+    // shortSwipes: false,
     // simulateTouch: false,
     // shortSwipes: false,
     //   pagination: {
@@ -134,4 +138,24 @@ export function renderSwiper() {
 
   const swiperEl = document.querySelector('.swiper-container');
   swiperEl.style.visibility = 'visible';
+}
+
+export function getPosition(el) {
+  var x = 0;
+  var y = 0;
+  var d = el;
+  while (d) {
+    x += d.offsetLeft - d.scrollLeft + d.clientLeft;
+    y += d.offsetTop - d.scrollLeft + d.clientTop;
+    d = d.offsetParent;
+  }
+
+  return { x, y };
+}
+
+export function placeDiv(el, xPos, yPos) {
+  var d = el;
+  d.style.position = 'absolute';
+  d.style.left = `${xPos}px`;
+  d.style.top = `${yPos}px`;
 }
