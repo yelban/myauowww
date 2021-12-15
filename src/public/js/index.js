@@ -1,4 +1,5 @@
 import * as l from './lib';
+import 'the-new-css-reset/css/reset.css';
 import '../css/index.scss';
 
 console.log('index.js');
@@ -44,13 +45,13 @@ async function buildLinks() {
 
     ab.dropDown[index] = [];
     if (link.below.length > 1) {
-      link.below.forEach((sub, key) => {
+      link.below.forEach((sub) => {
         ab.dropDown[index].push(sub.link);
       });
     }
   });
 
-  console.log('ab.dropDown', ab.dropDown);
+  // console.log('ab.dropDown', ab.dropDown);
 
   const slideEl = document.createElement('div');
   slideEl.id = 'abScroll';
@@ -66,9 +67,10 @@ async function buildLinks() {
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>`;
 
-  document.body.insertBefore(slideEl, document.body.childNodes[0]);
+  // 沃草！IE 11 不支援
   // document.body.prepend(slideEl);
-  console.log('slideEl', slideEl);
+  document.body.insertBefore(slideEl, document.body.childNodes[0]);
+  // console.log('slideEl', slideEl);
 
   const dropdownEl = document.createElement('div');
   dropdownEl.id = 'ab-dropdown';
@@ -95,11 +97,11 @@ async function buildLinks() {
       abDropdown.style.visibility = 'hidden';
       abDropdown.classList.remove('dropdown-6');
       const { id } = event.target.dataset;
-      console.log('ab.dropDown[id]', ab.dropDown[id]);
+      // console.log('ab.dropDown[id]', ab.dropDown[id]);
 
       let innerHTML = '';
 
-      ab.dropDown[id].forEach((v, k) => {
+      ab.dropDown[id].forEach((v) => {
         innerHTML += `<div>
         <a href="${v.link_path}">${v.link_title}</a>
         </div>`;
@@ -114,22 +116,22 @@ async function buildLinks() {
       // innerHTML = `<ul class="dropdown-menu dropdown-menu-animated dropdown-6">
       // ${innerHTML}
       // </ul>`;
-      console.log('innerHTML', innerHTML);
+      // console.log('innerHTML', innerHTML);
 
       const x = event.target.getBoundingClientRect().left;
       const y = event.target.getBoundingClientRect().top;
-      console.log('event.target', x, y);
+      // console.log('event.target', x, y);
 
       // const abDropdown = document.getElementById('ab-dropdown');
       abDropdown.innerHTML = innerHTML;
-      l.placeDiv(abDropdown, (x - 5), (y + 50));
+      l.placeDiv(abDropdown, x, (y + 50));
       abDropdown.style.visibility = 'visible';
       abDropdown.classList.add('dropdown-6');
     }
   });
 
   document.getElementById('ab-dropdown').addEventListener('mouseleave', (event) => {
-    console.log('mouseleave');
+    // console.log('mouseleave');
     const el = event.target;
     el.style.visibility = 'hidden';
     el.classList.remove('dropdown-6');
@@ -154,15 +156,15 @@ async function crossLoader() {
 
   // production
   if (window.document.documentMode) {
-    l.loadJsCssUrl('css/ie.css', 'css', () => {
-      l.loadJsCssUrl('css/scroll.css', 'css', () => {
-        l.loadJsCssUrl('ie.js', 'js', buildLinks, document.body);
+    l.loadJsCssUrl('auowidget/ie.css', 'css', () => {
+      l.loadJsCssUrl('auowidget/scroll.css', 'css', () => {
+        l.loadJsCssUrl('auowidget/ie.js', 'js', buildLinks, document.body);
       });
     });
   } else {
-    l.loadJsCssUrl('css/popular.css', 'css', () => {
-      l.loadJsCssUrl('css/scroll.css', 'css', () => {
-        l.loadJsCssUrl('popular.js', 'js', buildLinks, document.body);
+    l.loadJsCssUrl('auowidget/popular.css', 'css', () => {
+      l.loadJsCssUrl('auowidget/scroll.css', 'css', () => {
+        l.loadJsCssUrl('auowidget/popular.js', 'js', buildLinks, document.body);
       });
     });
   }

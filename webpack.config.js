@@ -15,7 +15,7 @@ module.exports = {
   target: env === 'development' ? 'web' : 'browserslist',
 
   entry: {
-    index: path.resolve(__dirname, './src/public/js/index.js'),
+    abscroll: path.resolve(__dirname, './src/public/js/index.js'),
     ie: path.resolve(__dirname, './src/public/js/ie.js'),
     popular: path.resolve(__dirname, './src/public/js/popular.js'),
     scroll: path.resolve(__dirname, './src/public/js/scroll.js'),
@@ -23,7 +23,7 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: '[name].js',
+    filename: 'auowidget/[name].js',
     clean: true,
   },
 
@@ -40,7 +40,7 @@ module.exports = {
       {
         test: /\.js$/,
         // exclude: /node_modules/,
-        exclude: /node_modules\/(?!(dom7|swiper|abscroll(\w)?|whatwg-.*)\/).*/,
+        exclude: /node_modules\/(?!(dom7|swiper|abscroll4|whatwg-.*)\/).*/,
         // include: [/whatwg-.*/],
         use: [
           {
@@ -174,7 +174,7 @@ module.exports = {
     new webpack.ProgressPlugin(),
 
     new MiniCssExtractPlugin({
-      filename: 'css/[name].css',
+      filename: 'auowidget/[name].css',
     }),
 
     new HtmlWebpackPlugin({
