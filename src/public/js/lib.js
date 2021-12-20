@@ -61,6 +61,20 @@ export async function fetchData(endpoint) {
   // return json;
 }
 
+export async function setData(endpoint, ab) {
+  console.log('setData(endpoint, ab)', endpoint);
+  try {
+    const result = await fetchData(endpoint);
+    console.log(endpoint, result);
+    ab.setProperty(endpoint, result);
+    localStorage.setItem(`ab_${endpoint}`, JSON.stringify(result));
+    localStorage.setItem(`ab_${endpoint}_ts`, parseInt(Date.now() / 1000, 10));
+    // l.fetchData('links').then((data) => { ab.links = data; });
+  } catch (error) {
+    console.log('error', error);
+  }
+}
+
 export function renderSwiper(count) {
   console.log('renderSwiper(count)', count);
 
@@ -74,6 +88,15 @@ export function renderSwiper(count) {
   //     renderSwiper(ab);
   //   }, 1000);
   // }
+
+  // until the Swiper is ready
+  if (typeof Swiper === 'undefined') {
+    setTimeout(() => {
+      renderSwiper(count);
+    }, 100);
+
+    return;
+  }
 
   const swiper = new Swiper('.swiper-container', {
     slidesPerView: count,
@@ -125,12 +148,44 @@ export function renderSwiper(count) {
         slidesPerView: 6,
         // spaceBetween: 40
       },
-      1000: {
+      950: {
         slidesPerView: 7,
         // spaceBetween: 40
       },
-      1200: {
+      1100: {
+        slidesPerView: 8,
+        // spaceBetween: 40
+      },
+      1250: {
         slidesPerView: 9,
+        // spaceBetween: 40
+      },
+      1400: {
+        slidesPerView: 10,
+        // spaceBetween: 40
+      },
+      1550: {
+        slidesPerView: 11,
+        // spaceBetween: 40
+      },
+      1700: {
+        slidesPerView: 12,
+        // spaceBetween: 40
+      },
+      1850: {
+        slidesPerView: 13,
+        // spaceBetween: 40
+      },
+      2000: {
+        slidesPerView: 14,
+        // spaceBetween: 40
+      },
+      2150: {
+        slidesPerView: 15,
+        // spaceBetween: 40
+      },
+      2300: {
+        slidesPerView: 16,
         // spaceBetween: 40
       },
     },
