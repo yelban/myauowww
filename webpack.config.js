@@ -19,6 +19,7 @@ module.exports = {
     ie: path.resolve(__dirname, './src/public/js/ie.js'),
     popular: path.resolve(__dirname, './src/public/js/popular.js'),
     scroll: path.resolve(__dirname, './src/public/js/scroll.js'),
+    user: path.resolve(__dirname, './src/public/js/user.js'),
   },
 
   output: {
@@ -53,12 +54,13 @@ module.exports = {
         test: /\.css$/i,
         // exclude: /\.\/css\/ie\.css$/i,
         use: [
-          (env === 'development' ? 'style-loader' : {
-            loader: MiniCssExtractPlugin.loader,
-            // options: {
-            //   publicPath: path.resolve(__dirname, './dist/css/'),
-            // },
-          }),
+          { loader: MiniCssExtractPlugin.loader },
+          // (env === 'development' ? 'style-loader' : {
+          //   loader: MiniCssExtractPlugin.loader,
+          //   // options: {
+          //   //   publicPath: path.resolve(__dirname, './dist/css/'),
+          //   // },
+          // }),
           {
             loader: 'css-loader',
             options: {
@@ -93,12 +95,13 @@ module.exports = {
       {
         test: /\.(sa|sc)ss$/i,
         use: [
-          (env === 'development' ? 'style-loader' : {
-            loader: MiniCssExtractPlugin.loader,
-            // options: {
-            //   publicPath: '../',
-            // },
-          }),
+          { loader: MiniCssExtractPlugin.loader },
+          // (env === 'development' ? 'style-loader' : {
+          //   loader: MiniCssExtractPlugin.loader,
+          //   // options: {
+          //   //   publicPath: '../',
+          //   // },
+          // }),
           {
             loader: 'css-loader',
             options: {
@@ -181,7 +184,7 @@ module.exports = {
       filename: './index.html',
       template: './src/public/index.html',
       inject: 'body',
-      excludeChunks: env === 'production' ? ['ie', 'popular', 'scroll'] : ['ie'],
+      excludeChunks: env === 'production' ? ['ie', 'popular', 'scroll', 'user'] : ['ie', 'user'],
       minify: env === 'production' ? {
         collapseWhitespace: true,
         removeComments: true,
