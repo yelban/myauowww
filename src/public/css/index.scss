@@ -209,3 +209,18 @@
     opacity: 0;
   }
 }
+
+// reset new css reset
+a,
+label,
+button,
+input[type="radio"],
+input[type="submit"],
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+button[disabled],
+input[disabled] {
+  cursor: default;
+}

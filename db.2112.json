@@ -1,0 +1,935 @@
+{
+  "link": [
+    {
+      "link": {
+        "link_title": "Hot Links",
+        "link_path": "myauo/apps/3",
+        "external": 0
+      },
+      "below": [
+        {
+          "link": {
+            "link_title": "IU AI365",
+            "link_path": "http://gcp-aucm11.corpnet.auo.com/IUAI365Portal",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "FlowER",
+            "link_path": "http://auhqflowerap02.corpnet.auo.com/FlowER20",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "AUO Phone Book",
+            "link_path": "http://auhqhrap02.corpnet.auo.com/PhoneBook/Webform/Query.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "PR申請",
+            "link_path": "http://auhqpur3.corpnet.auo.com/pms_portal/WebForms/xxxContentPage.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "會議預約",
+            "link_path": "http://mymeeting/Default.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "電子簽呈申請",
+            "link_path": "http://au3hr7.corpnet.auo.com/petition/webform/Main.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "請假/加班",
+            "link_path": "http://auohqhrmap02.corpnet.auo.com/PTMS/webforms/default.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "Global PTMS",
+            "link_path": "http://au3hr8.corpnet.auo.com/GlobalPTMS/WebForms/Approve.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "Global Travel Apply",
+            "link_path": "http://auhqhr3.corpnet.auo.com/gts/HomePage/Index",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "PLM 2.0",
+            "link_path": "http://auhqplmap01.corpnet.auo.com/PLM2",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "AI365 2.0",
+            "link_path": "http://gcp-aucm02.corpnet.auo.com/MLB",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "AUOTube",
+            "link_path": "http://auotube.corpnet.auo.com",
+            "external": 1
+          },
+          "below": []
+        }
+      ]
+    },
+    {
+      "link": {
+        "link_title": "全流程",
+        "link_path": "<firstchild>",
+        "external": 0
+      },
+      "below": [
+        {
+          "link": {
+            "link_title": "IMS",
+            "link_path": "http://auohqimsap01.corpnet.auo.com/IMS",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "TTM/TTP Dashboard",
+            "link_path": "http://auohqplfap01.corpnet.auo.com/IMS",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "Order Fulfillment",
+            "link_path": "http://gcp-aucm07.corpnet.auo.com/BAM",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "mTS工時平台",
+            "link_path": "http://auohqcmmap01.corpnet.auo.com/DailyJobMVC/Daily/HomeIndex",
+            "external": 1
+          },
+          "below": []
+        }
+      ]
+    },
+    {
+      "link": {
+        "link_title": "MFG",
+        "link_path": "<firstchild>",
+        "external": 0
+      },
+      "below": [
+        {
+          "link": {
+            "link_title": "eFAB",
+            "link_path": "http://efab",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "GMIS",
+            "link_path": "http://gmis",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "iDashboard",
+            "link_path": "http://idashboard:8066/dashboard/index.jsp",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "CFT評核管理系統",
+            "link_path": "http://au3hr7/cft",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "製造資源規劃",
+            "link_path": "http://eplan/gpsportal/home.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "技師認證系統",
+            "link_path": "http://au3hr8/technologist",
+            "external": 1
+          },
+          "below": []
+        }
+      ]
+    },
+    {
+      "link": {
+        "link_title": "BU",
+        "link_path": "<firstchild>",
+        "external": 0
+      },
+      "below": [
+        {
+          "link": {
+            "link_title": "BU智管中心",
+            "link_path": "http://auhqpl02.corpnet.auo.com/copilot/operationmanagement/Index2?CFT=BU",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "BIS",
+            "link_path": "http://bis/BISLogin/login.aspx?BIS_WEBSITE=&FROM_SYS=MYAUO",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "CSS",
+            "link_path": "http://css.corpnet.auo.com",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "PjMS",
+            "link_path": "http://auhqpvap1.corpnet.auo.com/PJMS",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "War Room",
+            "link_path": "http://auhqbuap.cdn.corpnet.auo.com/WRS/Webform",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "BPS",
+            "link_path": "http://auohqbisap01.corpnet.auo.com/APPORTAL_MVC/Home",
+            "external": 1
+          },
+          "below": []
+        }
+      ]
+    },
+    {
+      "link": {
+        "link_title": "Supply Chain",
+        "link_path": "<firstchild>",
+        "external": 0
+      },
+      "below": [
+        {
+          "link": {
+            "link_title": "SCM智管中心",
+            "link_path": "https://auhqpl02.corpnet.auo.com/copilot/operationmanagement/Index2?CFT=KPI_SCM",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "Great Wall (GPS)",
+            "link_path": "http://eplan/gpsportal",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "PMS",
+            "link_path": "http://auhqpur3.corpnet.auo.com/pms_portal/WebForms/xxxContentPage.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "SRM",
+            "link_path": "https://srm.auo.com/srm_portal",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "AWMS(ERP_EX)",
+            "link_path": "http://au3erp7.corpnet.auo.com/awmsnew/webforms/xxxContentPage.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "e-Shipment",
+            "link_path": "http://auhqom2.corpnet.auo.com/E-Shipment/default.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "Logistics",
+            "link_path": "http://auhqom1.corpnet.auo.com/LmsPortal/Webform/PortalInfo.aspx",
+            "external": 1
+          },
+          "below": []
+        }
+      ]
+    },
+    {
+      "link": {
+        "link_title": "RD",
+        "link_path": "<firstchild>",
+        "external": 0
+      },
+      "below": [
+        {
+          "link": {
+            "link_title": "RD AI365",
+            "link_path": "http://rdai365.ab1.corpnet.auo.com",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "ATC Portal",
+            "link_path": "http://atcportal",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "CRS",
+            "link_path": "http://auhqplmap01.corpnet.auo.com/Crs/WebForm/CRS_HOME.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "Mantis Tracker System",
+            "link_path": "https://tracker.auo.com/mantissw",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "Jira Tracker System",
+            "link_path": "https://jira.auo.com/plugins/servlet/external-login",
+            "external": 1
+          },
+          "below": []
+        }
+      ]
+    },
+    {
+      "link": {
+        "link_title": "HR",
+        "link_path": "<firstchild>",
+        "external": 0
+      },
+      "below": [
+        {
+          "link": {
+            "link_title": "myHR",
+            "link_path": "http://myhr.ab1.corpnet.auo.com",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "AEP友達員工資訊平台",
+            "link_path": "https://aep.auo.com",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "AUO智慧學習平台",
+            "link_path": "http://alc.ab1.corpnet.auo.com",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "訪客預約",
+            "link_path": "http://auhqhr1.corpnet.auo.com/SafetyManage/Webform/Guest/default.aspx",
+            "external": 1
+          },
+          "below": []
+        }
+      ]
+    },
+    {
+      "link": {
+        "link_title": "Quality",
+        "link_path": "<firstchild>",
+        "external": 0
+      },
+      "below": [
+        {
+          "link": {
+            "link_title": "QSM品質系統管理",
+            "link_path": "http://auoblog/sites/srv2_01/Quality_Management_System_Div/default.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "TQA",
+            "link_path": "http://au3tqa1.corpnet.auo.com/tqaportal",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "R&R Table",
+            "link_path": "http://auodms.corpnet.auo.com/TestDiamond/Webform/pContent.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "AUO Glossary",
+            "link_path": "http://auodms.corpnet.auo.com/pn",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "DMS",
+            "link_path": "http://auodms.corpnet.auo.com/iso/dms",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "Qoogle",
+            "link_path": "http://auhqrdap1.corpnet.auo.com/Qoogle/default.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "Quality Cost",
+            "link_path": "http://auhqpl02.corpnet.auo.com/copilot/operationmanagement/Index2?CFT=PLM",
+            "external": 1
+          },
+          "below": []
+        }
+      ]
+    },
+    {
+      "link": {
+        "link_title": "FIN",
+        "link_path": "<firstchild>",
+        "external": 0
+      },
+      "below": [
+        {
+          "link": {
+            "link_title": "FIN Portal",
+            "link_path": "http://fin.ab1.corpnet.auo.com",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "FIS",
+            "link_path": "http://auhqfin1.corpnet.auo.com/finportal/webform/pcontent.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "Expenses System",
+            "link_path": "http://auhqfin2.corpnet.auo.com/NewExpense",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "預算控制系統",
+            "link_path": "http://auhqfin1.corpnet.auo.com/bcs_prod/webforms/cacs/default.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "ABC",
+            "link_path": "http://auhqfin1.corpnet.auo.com/ABC/Webform/pContent.aspx",
+            "external": 1
+          },
+          "below": []
+        }
+      ]
+    },
+    {
+      "link": {
+        "link_title": "ESH",
+        "link_path": "<firstchild>",
+        "external": 0
+      },
+      "below": [
+        {
+          "link": {
+            "link_title": "環安暨風險管理處",
+            "link_path": "http://esh2.ab1.corpnet.auo.com",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "承商安全管理",
+            "link_path": "http://autceshap1.corpnet.auo.com/ContractSafetyMgt/Webform/Home/AUOHome.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "環安通報",
+            "link_path": "http://autceshap1.corpnet.auo.com/ESH/Announce/Index.aspx?PageCode=ESH_Announce&Count=1",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "新冠肺炎專區",
+            "link_path": "http://auohqplmap01.corpnet.auo.com/EPKM",
+            "external": 1
+          },
+          "below": []
+        }
+      ]
+    },
+    {
+      "link": {
+        "link_title": "CSR",
+        "link_path": "<firstchild>",
+        "external": 0
+      },
+      "below": [
+        {
+          "link": {
+            "link_title": "AUO CSR 官網",
+            "link_path": "https://csr.auo.com",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "CSR portal",
+            "link_path": "http://csr.ab1.corpnet.auo.com",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "AUO CSR platform",
+            "link_path": "http://auo-csr-committee.ab1.corpnet.auo.com",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "CSR News",
+            "link_path": "http://auohqplmap01.corpnet.auo.com/CSRNews",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "風險管理系統",
+            "link_path": "http://auhqhr1.corpnet.auo.com/RiskControl/WebForm/SuperGroup/Home.aspx?",
+            "external": 1
+          },
+          "below": []
+        }
+      ]
+    },
+    {
+      "link": {
+        "link_title": "Knowledge",
+        "link_path": "<firstchild>",
+        "external": 0
+      },
+      "below": [
+        {
+          "link": {
+            "link_title": "Meeting Report",
+            "link_path": "http://myauoit.ab1.corpnet.auo.com/meeting-report",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "Report Center",
+            "link_path": "http://aukm.corpnet.auo.com/reportcenter/index.aspx?rr=BPL%20Databank",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "Knowledge+",
+            "link_path": "http://myauoit.ab1.corpnet.auo.com/knowledge",
+            "external": 1
+          },
+          "below": []
+        }
+      ]
+    },
+    {
+      "link": {
+        "link_title": "Law/IP/Audit",
+        "link_path": "<firstchild>",
+        "external": 0
+      },
+      "below": [
+        {
+          "link": {
+            "link_title": "智權與法務平台",
+            "link_path": "http://au3hr7/eatc",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "法律遵循專區",
+            "link_path": "http://antitrust.ab1.corpnet.auo.com",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "企業誠信專區Integrity",
+            "link_path": "http://aukm.corpnet.auo.com/reportcenter/pub/hr/integrity/index.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "個資法專區",
+            "link_path": "http://aukm.corpnet.auo.com/reportcenter/index.aspx?rr=HR&u=pub%2fexternalSystem.aspx%3fid%3dHRPersonalDataProtectionLaw",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "自主檢查(內控制度)",
+            "link_path": "http://au3hr8.corpnet.auo.com/SIS",
+            "external": 1
+          },
+          "below": []
+        }
+      ]
+    },
+    {
+      "link": {
+        "link_title": "DT",
+        "link_path": "<firstchild>",
+        "external": 0
+      },
+      "below": [
+        {
+          "link": {
+            "link_title": "IT智管中心",
+            "link_path": "http://auhqpl02.corpnet.auo.com/copilot/operationmanagement/Index2?CFT=IT_KPI",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "CIM工程中心",
+            "link_path": "http://cimweb.corpnet.auo.com/mycim",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "my3000",
+            "link_path": "http://myauoit.ab1.corpnet.auo.com",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "ERP-R12",
+            "link_path": "http://auhqerp.corpnet.auo.com:8000",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "Account/USB Security Control",
+            "link_path": "http://auhqitap1.corpnet.auo.com/MailExpressSystem/WebForms/auoform469a.aspx",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "LINK",
+            "link_path": "http://10.88.19.41/Octopus/WebRedirect/Default.aspx?WebId=EventPlusWeb",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "EDA2.0",
+            "link_path": "http://auhqpl02.corpnet.auo.com/copilot/operationmanagement/Index2",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "易事通",
+            "link_path": "http://estone:8080/eStone",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "智聯AR平台",
+            "link_path": "http://lcmar:8000",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "友達數位精靈",
+            "link_path": "http://degitalsprite.corpnet.auo.com",
+            "external": 1
+          },
+          "below": []
+        }
+      ]
+    },
+    {
+      "link": {
+        "link_title": "Others",
+        "link_path": "<firstchild>",
+        "external": 0
+      },
+      "below": [
+        {
+          "link": {
+            "link_title": "智慧管理2.0",
+            "link_path": "http://ai.ab1.corpnet.auo.com",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "友達官方網站",
+            "link_path": "https://www.auo.com",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "Corp. Com.行銷推廣",
+            "link_path": "http://cc00.corpnet.auo.com",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "友達永續基金會",
+            "link_path": "https://csr.auo.com/tw/operating/foundation",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "公告系統",
+            "link_path": "http://auohqitmap01.corpnet.auo.com/bulletinnew/#/",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "資產活化淘寶網",
+            "link_path": "http://shop.ab1.corpnet.auo.com",
+            "external": 1
+          },
+          "below": []
+        },
+        {
+          "link": {
+            "link_title": "活動報名暨問卷調查平台",
+            "link_path": "https://qnaire.ab1.auo.com",
+            "external": 1
+          },
+          "below": []
+        }
+      ]
+    }
+  ],
+  "todo": {
+    "todo": [
+      {
+        "system": "PMS_工作進度更新",
+        "num": 1,
+        "link": "http://tw100018590.corpnet.auo.com/AutoPMS/Schedule/MyUpdate",
+        "site": "AUO"
+      },
+      {
+        "system": "待審問卷1",
+        "num": 1,
+        "link": "https://qnaire.ab1.auo.com/audit",
+        "site": "AUO"
+      }
+    ]
+  },
+  "app": {
+    "auodata": [
+      {
+        "emp_no": 1501038,
+        "emp_name": "蘇建誠",
+        "org_id": "adted1",
+        "site": "auhc",
+        "company": "AUHQ",
+        "link_type": "auo"
+      }
+    ],
+    "person": [
+      {
+        "title": "FlowER",
+        "url": "http://auhqflowerap02.corpnet.auo.com/FlowER20",
+        "img_path": "/sites/default/files/未命名-1.png"
+      },
+      {
+        "title": "AUO Phone Book",
+        "url": "http://auhqhrap02.corpnet.auo.com/PhoneBook/Webform/Query.aspx",
+        "img_path": "/sites/default/files/未命名-1_0.png"
+      }
+    ],
+    "float": [
+      {
+        "title": "Test Rule 區塊",
+        "body": "Test Rule 區塊",
+        "url": "http://auotube.corpnet.auo.com/",
+        "img_path": "/sites/default/files/rule_sample.png",
+        "weight": 911,
+        "sites": ["myauo", "myausz", "myauxm"]
+      }
+    ],
+    "sign": [
+      {
+        "nid": 66,
+        "submit_action": "/ab/submit_sign.php",
+        "api_check_url": "",
+        "title": "反托拉斯法宣言",
+        "sites": ["myauo", "myausz", "myauxm", "myaueu/ro", "myaust", "myauks"],
+        "body": {
+          "zh_hant": "<p style=\"text-align: center; font-size: 18px;\"><strong>反托拉斯法宣言</strong></p><ol><li>友達的反托拉斯法律遵循政策，除了要求友達人需遵循法律，也要避免可能違法或有違法外觀之行為。</li><li>友達有明確的反托拉斯法律遵循政策與文件，分別為(1)反托拉斯法律遵循政策，(2)反托拉斯法律遵循手冊，(3)反托拉斯與競爭法常見問題，(4)AUO企業誠信手冊-遵循反托拉斯法及競爭法以及(5)反托拉斯遵循十點基本守則 (友達十誡)。 (請見 <a href=\"http://antitrust.ab1.corpnet.auo.com/\">http://antitrust.ab1.corpnet.auo.com/</a>)。</li><li>友達人不應跟競爭對手要求或討論有關價格、產能、產量、銷售條件及/或非公開之市場相關等資訊；也會注意與「同時為客人的競爭對手」的交流。</li><li>若認為可能有違反反托拉斯法律或遵循政策之情形發生，友達人應立即向法務室或反托拉斯遵循最高主管林欣吾博士報告(<a href=\"mailto:XW.Lin@auo.com\">XW.Lin@auo.com</a>)或向匿名信箱<a href=\"mailto:compliance@auo.com\">compliance@auo.com</a>舉報。</li></ol><p>&nbsp;</p><p><strong>我</strong><strong>聲明確認</strong></p><ol><li><strong>我已經閱讀且理解反托拉斯法律遵循政策並願意配合遵守，且</strong></li><li><strong>我已經向法務室或反托拉斯遵循最高主管報告,到目前為止,所有我認為可能有違反反托拉斯法律的情形</strong></li></ol>",
+          "zh_hans": null,
+          "en": null
+        }
+      },
+      {
+        "nid": 65,
+        "submit_action": "",
+        "api_check_url": "https://qnaire.ab1.auo.com/sites/all/modules/auo_qnaire_alterquery/tochcheck_NCOV.php",
+        "title": "新冠肺炎防疫管理",
+        "sites": ["myauo"],
+        "body": {
+          "zh_hant": "<p style=\"text-align: center;\"><span style=\"font-size: 24px;\"><strong>您今天尚未回報防疫健康管理問卷，煩請您點擊填寫</strong></span></p><p style=\"text-align: center;\"><a href=\"http://qnaire.ab1.auo.com/node/3949\" target=\"_blank\"><img alt=\"\" id=\"COVID-19\" src=\"/sites/default/files/cn19-2.jpg\" style=\"width: 400px; height: 310px;\" /></a></p>",
+          "zh_hans": null,
+          "en": null
+        }
+      }
+    ]
+  }
+}

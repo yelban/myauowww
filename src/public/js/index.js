@@ -8,12 +8,12 @@ import '../css/index.scss';
 
 // * 沃草！IE 11 不支援
 // *
-import db from '../../../db.json';
-// const db = {};
+// import db from '../../../db.json';
+const db = {};
 
-const isLocalData = true;
+const isLocalData = false;
 
-const isLocaleHost = true;
+const isLocaleHost = false;
 
 // console.log(chalk.blueBright('index.js'));
 
@@ -106,7 +106,7 @@ async function crossLoader() {
     hostData = 'http://test-myauo3.ab1.corpnet.auo.com/sites/all/modules/custom/auo_myauo_ws';
 
     ab.url = {
-      link: `${hostData}/getMenu.php`,
+      link: `${hostData}/getMenu_tid.php`,
       todo: `${hostData}/getMyTodo.php?id=${window.NTName}`,
       app: `${hostData}/getMyApp.php?id=${window.NTName}`,
     };
