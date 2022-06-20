@@ -99,6 +99,7 @@ async function crossLoader() {
 
     ab.url = {
       link: `${hostData}/link`,
+      othersites: `${hostData}/othersites`,
       todo: `${hostData}/todo`,
       app: `${hostData}/app`,
     };
@@ -106,7 +107,9 @@ async function crossLoader() {
     hostData = 'http://test-myauo3.ab1.corpnet.auo.com/sites/all/modules/custom/auo_myauo_ws';
 
     ab.url = {
-      link: `${hostData}/getMenu_tid.php`,
+      // link: `${hostData}/getMenu_tid.php`,
+      link: `${hostData}/getMenu_tid_lang.php`,
+      othersites: `${hostData}/getOtherSite_link.php`,
       todo: `${hostData}/getMyTodo.php?id=${window.NTName}`,
       app: `${hostData}/getMyApp.php?id=${window.NTName}`,
     };
