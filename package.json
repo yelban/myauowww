@@ -64,6 +64,7 @@
     "abscroll7": "npm:swiper@^7.3.1",
     "chalk": "^5.0.0",
     "core-js": "^3.19.3",
+    "loadjs": "^4.2.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "the-new-css-reset": "^1.4.2",

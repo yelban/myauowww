@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taichung - Test AUO drupal || myAUO | test-myauo3.ab1.corpnet.auo.com</title>
+    <style>
+        .element-invisible {
+            position: absolute !important;
+            clip: rect(1px, 1px, 1px, 1px);
+            overflow: hidden;
+            height: 1px
+        }
+
+        .element-invisible.element-focusable:active,
+        .element-invisible.element-focusable:focus {
+            position: static !important;
+            clip: auto;
+            overflow: visible;
+            height: auto
+        }
+
+        .clearfix:after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden
+        }
+
+        img {
+            border: 0
+        }
+    </style>
+    <style media=screen>
+        html,
+        body,
+        div,
+        h2,
+        p,
+        img,
+        ul,
+        li,
+        footer,
+        header {
+            background: transparent;
+            border: 0;
+            font-size: 100%;
+            margin: 0;
+            outline: 0;
+            padding: 0;
+            vertical-align: baseline
+        }
+
+        footer,
+        header {
+            display: block
+        }
+
+        body {
+            -webkit-text-size-adjust: none
+        }
+
+        p {
+            margin: 0 0 15px
+        }
+
+        a,
+        a:hover,
+        a:active {
+            outline: 0
+        }
+
+        img {
+            font-size: 0;
+            line-height: 0;
+            -ms-interpolation-mode: bicubic
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 0
+        }
+
+        body {
+            background: #fff;
+            color: #333;
+            font-family: Arial, "Helvetica Neue", "Microsoft JhengHei", sans-serif;
+            font-size: 16px;
+            line-height: 30px;
+            min-width: 1250px;
+            position: relative
+        }
+
+        #page-wrapper {
+            overflow: hidden
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-weight: bold
+        }
+
+        a {
+            color: #3e5766;
+            text-decoration: none
+        }
+
+        a:hover {
+            color: #009fdb
+        }
+
+        ul li {
+            list-style: none;
+            margin: 10px 0 0;
+            padding: 0 0 0 16px
+        }
+
+        ul li:first-child,
+        .item-list ul li:first-child,
+        ul.menu li:first-child {}
+
+        ul li a {
+            text-decoration: none
+        }
+
+        ul li a:hover,
+        .item-list ul li a:hover,
+        ul.menu li a:hover {
+            text-decoration: none
+        }
+
+        img {
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            max-width: 100%
+        }
+
+        .clearfix {
+            position: relative
+        }
+
+        .clearfix:after {
+            clear: both;
+            content: '\0020';
+            display: block;
+            height: 0;
+            overflow: hidden;
+            visibility: hidden;
+            width: 0
+        }
+
+        .region-header-top:after,
+        .region-header:after,
+        .region-header-bottom:after,
+        .region-content-top:after,
+        .region-content:after,
+        .region-content-bottom:after,
+        .region-footer-top:after,
+        .region-footer:after {
+            clear: both;
+            content: '';
+            display: block;
+            width: 100%
+        }
+
+        .parallax-box {
+            position: relative
+        }
+
+        .parallax-box .region {
+            position: relative;
+            z-index: 9
+        }
+
+        #header {
+            width: 100%;
+            z-index: 99;
+            height: 95px;
+            top: 0;
+            background: #f8f8f8
+        }
+
+        .header-section {
+            width: 1200px;
+            margin: 0 auto
+        }
+
+        #content {
+            margin-top: 30px
+        }
+
+        .region-content {
+            padding: 0
+        }
+
+        .node {
+            border-top: 0;
+            clear: both;
+            margin-top: 50px;
+            padding-top: 0
+        }
+
+        .node:first-child {
+            background: 0;
+            border-top: 0;
+            margin-top: 0;
+            padding-top: 0
+        }
+
+        .node-footer {
+            padding-top: 0
+        }
+
+        #footer {
+            clear: both;
+            font-size: 13px;
+            line-height: 21px;
+            padding: 0;
+            position: relative
+        }
+
+        .footer_wrapper {
+            padding: 60px 0 40px 0;
+            color: #e5e5e5;
+            background: #2b2c30
+        }
+
+        .container-12 {
+            position: relative;
+            width: 1200px;
+            margin: 0 auto;
+            padding: 0
+        }
+
+        .grid-3 {
+            float: left;
+            display: inline;
+            margin-left: 15px;
+            margin-right: 15px
+        }
+
+        .container-12 .grid-3 {
+            width: 270px
+        }
+
+        .container-12:after {
+            clear: both;
+            content: "\0020";
+            display: block;
+            height: 0;
+            visibility: hidden
+        }
+
+        .clearfix:before,
+        .clearfix:after,
+        .row:before,
+        .row:after {
+            content: '\0020';
+            display: block;
+            height: 0;
+            overflow: hidden;
+            visibility: hidden;
+            width: 0
+        }
+
+        .row:after,
+        .clearfix:after {
+            clear: both
+        }
+
+        .clearfix {
+            zoom: 1
+        }
+
+        @keyframes fadeInUp {
+            from {
+                transform: translate3d(0, 40px, 0)
+            }
+
+            to {
+                transform: translate3d(0, 0, 0);
+                opacity: 1
+            }
+        }
+
+        @-webkit-keyframes fadeInUp {
+            from {
+                transform: translate3d(0, 40px, 0)
+            }
+
+            to {
+                transform: translate3d(0, 0, 0);
+                opacity: 1
+            }
+        }
+
+        .region-header .block {
+            display: inline-block;
+            padding-top: 30px;
+            font-weight: bold;
+            font-size: 40px
+        }
+
+        .region-header .block a {
+            color: #3e5766
+        }
+
+        .region-header ul li {
+            padding-left: 50px
+        }
+
+        #block-block-2 {
+            font-size: 20px;
+            font-weight: normal;
+            padding-top: 22px;
+            position: absolute;
+            right: 0
+        }
+
+        #block-block-2 ul li {
+            background: 0;
+            display: inline-block
+        }
+
+        #block-block-2 ul li a:hover {
+            color: #009fdb
+        }
+
+        #block-block-2 img {
+            vertical-align: middle
+        }
+
+        .footer_wrapper h2 {
+            font-size: 20px;
+            color: #859dac
+        }
+
+        .footer_wrapper a {
+            color: #fff
+        }
+
+        .footer_wrapper a:hover {
+            color: #859dac
+        }
+
+        .footer_wrapper ul li {
+            background: 0;
+            padding: 0;
+            margin: 0 0 10px 0
+        }
+
+        .footer_wrapper .grid-3:last-child {
+            text-align: right
+        }
+
+        .footer_wrapper .grid-3:last-child p {
+            margin-top: 20px;
+            color: rgba(255, 255, 255, 0.25)
+        }
+
+        @media (max-width:767px) {
+            .region-header .block {
+                display: block;
+                text-align: center
+            }
+
+            #block-block-2 {
+                position: unset;
+                padding-bottom: 20px
+            }
+
+            #header {
+                height: unset
+            }
+
+            #block-block-2 ul li {
+                padding: 0 50px 0 0
+            }
+
+            .footer_wrapper,
+            .footer_wrapper .grid-3:last-child {
+                text-align: center
+            }
+        }
+
+        @media (max-width:1250px) {
+            body {
+                min-width: 320px
+            }
+
+            h2 {
+                white-space: normal
+            }
+
+            h2:before,
+            h2:after {
+                display: none
+            }
+        }
+
+        @media (max-width:995px) {
+            .header-section {
+                left: 0;
+                margin-left: 0;
+                padding: 0 15px;
+                right: 0;
+                width: auto;
+                background: #f8f8f8
+            }
+        }
+
+        @media (max-width:1250px) {
+            .container-12 {
+                width: 960px
+            }
+
+            .grid-3 {
+                margin-left: 10px;
+                margin-right: 10px
+            }
+
+            .container-12 .grid-3 {
+                width: 220px
+            }
+        }
+
+        @media (max-width:995px) {
+            .container-12 {
+                width: 768px
+            }
+
+            .container-12 .grid-3 {
+                width: 172px
+            }
+        }
+
+        @media (max-width:767px) {
+            .container-12 {
+                padding: 0 15px;
+                width: auto
+            }
+
+            .container-12 [class*="grid-"] {
+                display: block;
+                float: none;
+                margin: 0 0 30px;
+                width: auto
+            }
+        }
+    </style>
+    <style>
+        :where(:not(iframe):not(canvas):not(img):not(svg):not(video):not(svg *):not(symbol *)) {
+            all: unset;
+            display: revert
+        }
+
+        *,
+        :after,
+        :before {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box
+        }
+
+        ul {
+            list-style: none
+        }
+
+        img {
+            max-width: 100%
+        }
+
+        :where([contenteditable]) {
+            -moz-user-modify: read-write;
+            -webkit-user-modify: read-write;
+            word-wrap: break-word;
+            -webkit-line-break: after-white-space
+        }
+
+        body {
+            background-color: #f5f5f5;
+            color: #505050;
+            font-family: Helvetica Neue, helvetica, arial, Lucida Grande, LiHei Pro, WenQuanYi Zen Hei, 微軟正黑體, Microsoft JhengHei, 微软雅黑, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif
+        }
+
+        a {
+            cursor: pointer
+        }
+    </style>
+    <link type=image/x-icon rel="shortcut icon"
+        href="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+</head>
+
+<body id=body
+    class="html front not-logged-in no-sidebars page-node page-node- page-node-3 node-type-page i18n-zh-hant with-navigation"
+    cz-shortcut-listen=true>
+
+    <a href=#main-menu class="element-invisible element-focusable">Skip to navigation</a>
+    <a href=#content class="element-invisible element-focusable">移至主內容</a>
+    <div id=page-wrapper class=page-wrapper>
+        <div id=page class=page>
+
+
+
+            <header id=header class="header page-header clearfix img-bg parallax-box image-parallax-box" role=banner>
+
+                <div id=home>
+                    <div class=header-section>
+
+                        <div id=header_wrapper class="header_wrapper region-fullwidth">
+                            <div class="region region-header">
+
+                                <div id=block-block-1 class="block-block-1 block block-block block-odd">
+
+
+
+                                    <div class="content block-content">
+                                        <p><a href=http://test-myauo3.ab1.corpnet.auo.com/myauo>myAUO</a></p>
+                                    </div>
+                                </div>
+                                <div id=block-block-2 class="block-block-2 block block-block block-even">
+
+
+
+                                    <div class="content block-content">
+                                        <ul>
+                                            <li><a href=#>OTHER SITES</a>
+                                            <li id="ab-todo"><a href=# id="ab-todo-a">MY TO DO <img id="ab-todo-icon" class="ab-icon" alt
+                                                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIyMSIgdmlld0JveD0iMCAwIDE4IDIxIj4NCiAgPHBhdGggaWQ9ImljX2FkZF9hbGVydF8yNHB4IiBkPSJNMTAuMDEsMjEuMDFhMS45OSwxLjk5LDAsMCwwLDMuOTgsMFptOC44Ny00LjE5VjExYTYuODczLDYuODczLDAsMCwwLTUuMjktNi42OVYzLjU5YTEuNTksMS41OSwwLDAsMC0zLjE4LDB2LjcyQTYuODczLDYuODczLDAsMCwwLDUuMTIsMTF2NS44MkwzLDE4Ljk0VjIwSDIxVjE4Ljk0WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMgLTIpIiBmaWxsPSIjM2U1NzY2Ii8+DQo8L3N2Zz4NCg=="
+                                                        style=width:18px;height:21px></a>
+                                            <li id="ab-work"><a href=#><img id="ab-work-icon" class="ab-icon" alt
+                                                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4NCiAgPGcgaWQ9Ikdyb3VwXzU4OCIgZGF0YS1uYW1lPSJHcm91cCA1ODgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNzIxIC05NCkiPg0KICAgIDxwYXRoIGlkPSJVbmlvbl8xIiBkYXRhLW5hbWU9IlVuaW9uIDEiIGQ9Ik0wLDE0YTIsMiwwLDEsMSwyLDJBMiwyLDAsMCwxLDAsMTRaTTAsOGEyLDIsMCwxLDEsMiwyQTIsMiwwLDAsMSwwLDhaTTAsMkEyLDIsMCwxLDEsMiw0LDIsMiwwLDAsMSwwLDJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNzIxIDk0KSIgZmlsbD0iIzNlNTc2NiIvPg0KICAgIDxwYXRoIGlkPSJVbmlvbl8yIiBkYXRhLW5hbWU9IlVuaW9uIDIiIGQ9Ik0wLDE0YTIsMiwwLDEsMSwyLDJBMiwyLDAsMCwxLDAsMTRaTTAsOGEyLDIsMCwxLDEsMiwyQTIsMiwwLDAsMSwwLDhaTTAsMkEyLDIsMCwxLDEsMiw0LDIsMiwwLDAsMSwwLDJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNzI3IDk0KSIgZmlsbD0iIzNlNTc2NiIvPg0KICAgIDxwYXRoIGlkPSJVbmlvbl8zIiBkYXRhLW5hbWU9IlVuaW9uIDMiIGQ9Ik0wLDE0YTIsMiwwLDEsMSwyLDJBMiwyLDAsMCwxLDAsMTRaTTAsOGEyLDIsMCwxLDEsMiwyQTIsMiwwLDAsMSwwLDhaTTAsMkEyLDIsMCwxLDEsMiw0LDIsMiwwLDAsMSwwLDJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNzMzIDk0KSIgZmlsbD0iIzNlNTc2NiIvPg0KICA8L2c+DQo8L3N2Zz4NCg=="
+                                                        style=width:16px;height:16px></a>
+                                            <li id="ab-search"><a href=#><img id="ab-search-icon" class="ab-icon" alt
+                                                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNy40OSIgaGVpZ2h0PSIxNy40OSIgdmlld0JveD0iMCAwIDE3LjQ5IDE3LjQ5Ij4NCiAgPHBhdGggaWQ9ImljX3NlYXJjaF8yNHB4IiBkPSJNMTUuNSwxNGgtLjc5bC0uMjgtLjI3YTYuNTEsNi41MSwwLDEsMC0uNy43bC4yNy4yOHYuNzlsNSw0Ljk5TDIwLjQ5LDE5Wm0tNiwwQTQuNSw0LjUsMCwxLDEsMTQsOS41LDQuNDk0LDQuNDk0LDAsMCwxLDkuNSwxNFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zIC0zKSIgZmlsbD0iIzNlNTc2NiIvPg0KPC9zdmc+DQo="
+                                                        style=width:17px;height:17px></a>
+                                            <li id="ab-lang"><a href=#>En</a>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </header>
+
+            <div id=main-wrapper class=main-wrapper role=main>
+                <div id=main class="main clearfix">
+
+                    <div class=container-12>
+                        <div>
+
+
+                            <div id=content class="content content-main">
+
+
+                                <header id=content-header class=content-header>
+
+
+
+
+
+
+                                </header>
+
+
+                                <div class="region region-content">
+
+                                    <div id=block-system-main class="block-system-main block block-system block-odd">
+
+
+
+                                        <div class="content block-content">
+                                            <div id=node-3
+                                                class="node node-page node-odd published with-comments node-full clearfix node-3"
+                                                role=article>
+                                                <header class="node-header clearfix">
+
+
+
+                                                </header>
+
+                                                <div class="content node-content">
+
+
+                                                </div>
+                                                <footer class="footer node-footer" role=contentinfo>
+
+
+
+                                                </footer>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+            <footer id=footer class="footer page-footer" role=contentinfo>
+
+                <div class=footer_wrapper>
+
+                    <div class=container-12>
+                        <div>
+
+                            <div class="region region-footer">
+
+                                <div id=block-block-3 class="block-block-3 block block-block block-even">
+
+
+
+                                    <div class="content block-content">
+                                        <div class=grid-3>
+                                            <h2>SELF SERVICE</h2>
+                                            <ul>
+                                                <li><a href="http://auhqitap1.corpnet.auo.com/ITBP/Webform/Report/AUO_smart_Report_Viewer.aspx?report_id=e5a2bfa0-7c98-48e3-801a-87969f227c43"
+                                                        target=_blank>System Owner</a>
+                                                <li><a href=http://faq.ab1.corpnet.auo.com/ target=_blank>FAQ 自助服務平台</a>
+                                                <li><a href=http://auohqitmap01.corpnet.auo.com/GHS/WebForms/Case/RaisingQuestion.aspx
+                                                        target=_blank>S3000 IT 線上報修</a>
+                                                <li><a href=http://tcsub001:8084/callcenter6000/templates/portal/user/faq/platform.html
+                                                        target=_blank>6000 幫幫你手冊</a>
+                                            </ul>
+                                        </div>
+                                        <div class=grid-3>
+                                            <h2>MY VOICE</h2>
+                                            <ul>
+                                                <li><a href=http://auohqhrmap03.corpnet.auo.com/GMMail/HBApply/Index
+                                                        target=_blank>總經理信箱</a>
+                                                <li><a href=http://auohqhrmap03.corpnet.auo.com/EMPVoice/HBApply/Index
+                                                        target=_blank>內部溝通信箱</a>
+                                                <li><a href=https://aep.auo.com/AEP_SexharassMailbox/default.aspx
+                                                        target=_blank>性騷擾申訴信箱</a>
+                                                <li><a href=http://test-myauo3.ab1.corpnet.auo.com/sites/default/files/AUO_complaint_policies_procedures_chi_web.pdf
+                                                        target=_blank>審計委員會信箱</a>
+                                            </ul>
+                                        </div>
+                                        <div class=grid-3>
+                                            <h2>CONTACTS</h2>
+                                            <ul>
+                                                <li>7885 人力資源服務
+                                                <li>3000 資訊工程服務
+                                                <li>2000 / 6000 廠區資訊服務
+                                            </ul>
+                                        </div>
+                                        <div class=grid-3>
+                                            <ul>
+                                                <li><a href=http://test-myauo3.ab1.corpnet.auo.com/node/68
+                                                        target=_blank>首頁廣告上架申請</a>
+                                                <li><a href=http://test-myauo3.ab1.corpnet.auo.com/node/71
+                                                        target=_blank>連結上架申請</a>
+                                                <li><a href=http://faq.ab1.corpnet.auo.com/zh-hant/node/452
+                                                        target=_blank>資訊安全管理規定</a>
+                                                <li><a href=http://test-myauo3.ab1.corpnet.auo.com/zh-hant>站台用量統計</a>
+                                            </ul>
+                                            <p>IT Service Window 8600-6460<br>Best viewed in IE11 &amp; above
+                                                browsers.<br>© 2022&nbsp;AU Optronics All Rights Reserved.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
